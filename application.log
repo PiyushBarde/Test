@@ -1,0 +1,21 @@
+2022-03-11 18:40:17.718 [INFO] [restartedMain] [c.b.u.UserApplication:55]  Starting UserApplication using Java 11.0.14 on LAPTOP-GLO85PV8 with PID 8060 (C:\Users\Piyush\Desktop\OnlineInsurance\User\target\classes started by Piyush in C:\Users\Piyush\Desktop\OnlineInsurance\User)
+2022-03-11 18:40:17.720 [DEBUG] [restartedMain] [c.b.u.UserApplication:56]  Running with Spring Boot v2.5.4, Spring v5.3.9
+2022-03-11 18:40:17.720 [INFO] [restartedMain] [c.b.u.UserApplication:663]  The following profiles are active: PROD
+2022-03-11 18:40:21.860 [WARN] [restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219]  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-11 18:40:22.096 [WARN] [restartedMain] [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:105]  Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-03-11 18:40:23.397 [WARN] [restartedMain] [o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82]  Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-11 18:40:27.921 [WARN] [restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2022-03-11 18:40:35.091 [ERROR] [restartedMain] [o.s.b.d.LoggingFailureAnalysisReporter:40]  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
